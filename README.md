@@ -1,5 +1,17 @@
 # ASR Model Mirror
 
+## Quickstart (one command)
+
+```bash
+curl -fsSL --retry 10 --retry-delay 20 --retry-all-errors \
+  https://raw.githubusercontent.com/huat0823/asr-model-mirror/main/setup_asr.py -o setup_asr.py \
+  && python3 setup_asr.py            # add --large for the 243MB model
+```
+
+`setup_asr.py` handles everything: 429/503 backoff, resume on connection cuts (HTTP Range),
+SHA256 verification, part reassembly, `pip install sherpa-onnx numpy`, and a recognition
+smoke test. Idempotent — just re-run it after any failure.
+
 Mirror of Chinese ASR models for restricted-network environments (only `raw.githubusercontent.com` + PyPI reachable). All files are plain git blobs — **no LFS** — so they are served directly by `raw.githubusercontent.com`.
 
 ## Contents
