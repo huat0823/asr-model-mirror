@@ -1,0 +1,10 @@
+3ef6c19369b912f7caf3cef8e545c5ccd1a33d9d7ec792a46668dc41c4b229ec  paraformer-zh-small/model.int8.onnx
+4b2d964e18b9cf139b473003b6698fb2ed9a2a5ec55b93daa677b28f578897aa  paraformer-zh-small/tokens.txt
+7a58e0b82289326626ff7bb8aab82902f003a0899fa9bc7c0efd6b2d09e632eb  paraformer-zh-large/model.int8.onnx.part-aa
+d7385e9a1b9396759c94ba119af6afa6e25df4462bd48b1eff9ff946c56f6258  paraformer-zh-large/model.int8.onnx.part-ab
+532cbaa0c38695a884edab170fb83e1778f846cd62f82dc2a80bd157028f500a  paraformer-zh-large/model.int8.onnx.part-ac
+59aba8873a2ed1e122c25fee421e25f283b63290efbde85c1f01a853d83cb6e6  paraformer-zh-large/tokens.txt
+9e2449e1087496d8d4caba907f23e0bd3f78d91fa552479bb9c23ac09cbb1fd6  vad/silero_vad.onnx
+eddf384a906bd6d905c9d9d652d614def1857608b88c2eee663ceeccbb31f7a3  test/2-zh-en.wav
+# assembled large model:
+f36a0433bcf096bd6d6f11b80a3ac8bed110bdca632fe0d731df8d1a84475945  paraformer-zh-large/model.int8.onnx
